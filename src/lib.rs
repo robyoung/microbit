@@ -9,6 +9,7 @@ pub use nb::*;
 
 pub mod display;
 pub mod led;
+pub mod gpio;
 
 #[macro_export]
 macro_rules! serial_port {
